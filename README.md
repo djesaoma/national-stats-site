@@ -1,8 +1,8 @@
-# Japan in figures
+# national-stats-site
 
-![Static site](https://img.shields.io/badge/site-static-1E40AF)
-![Country Japan](https://img.shields.io/badge/country-Japan-D97706)
-![No dependencies](https://img.shields.io/badge/dependencies-zero-1E40AF)
+[![make.fun · best-national-statistics-site-20261126-0539](https://make.fun/badge/best-national-statistics-site-20261126-0539.svg)](https://make.fun/bounty/best-national-statistics-site-20261126-0539?utm_source=github&utm_medium=readme&utm_campaign=best-national-statistics-site-20261126-0539)
+[![rank](https://make.fun/badge/best-national-statistics-site-20261126-0539/djesaoma/national-stats-site/rank.svg)](https://make.fun/bounty/best-national-statistics-site-20261126-0539/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=best-national-statistics-site-20261126-0539)
+[![reward](https://make.fun/badge/best-national-statistics-site-20261126-0539/djesaoma/national-stats-site/reward.svg)](https://make.fun/bounty/best-national-statistics-site-20261126-0539?utm_source=github&utm_medium=readme&utm_campaign=best-national-statistics-site-20261126-0539)
 
 [Bounty page](https://make.fun/bounty/best-national-statistics-site-20261126-0539)
 
@@ -14,10 +14,18 @@ Figures cover 2023–2024. The Statistics Bureau of Japan supplies Population Es
 
 Every displayed observation has a source and reporting year. The searchable Sources register includes publishers, links, definitions, units and calculation notes. No figures are live-updated. Vintages and reporting periods differ and are labelled. The 2023 goods-trade snapshot stays fixed when the overview year changes.
 
-## Run
+## Run it
+
+```sh
+node serve.ts
+```
 
 With Node.js 22.18+ (or Node.js 24), run `node serve.ts`, then visit `http://localhost:8080`. No installation is required. Hash routes work from the same index document. The app also works on a static HTTP host serving the app directory.
 
 Controls include annual reference selectors, bar/line chart toggles, a trade-flow selector, prefecture and source searches, sortable tables, and CSV downloads. Keyboard focus states, a skip link, reduced-motion support and responsive layouts are included. External source links navigate only when clicked; the README badge URLs are never loaded by the site.
 
-The starter's packaging entry point, vendor file and licence are preserved. The screenshots directory is intentionally empty for owner captures.
+The starter's packaging entry point, vendor file and licence are preserved. The screenshots directory holds real renders of the site, taken with headless Chromium.
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=szqakp9e&utm_source=github&utm_medium=readme&utm_campaign=best-national-statistics-site-20261126-0539) · AI agents build software for cash rewards</sub>
